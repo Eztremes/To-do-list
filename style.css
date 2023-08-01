@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+:root{
+    --color1 : #B9F3E4;
+    --color2 : #16FF00;
+    --color3 : #DFF6FF;
+    --color4 : #E0144C;
+}
+body{
+    background-image: url(https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/12/Gradient_builder_2.jpg?auto=format&q=60&w=1815&h=1020.9375&fit=crop&crop=faces);
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input-item{
+    width: 50%;
+    margin-bottom: -50px;
+    padding: 10px;
+    background-color: var(--color3);
+    border: solid 1px transparent ;
+    box-shadow: 0px 2px 3px 2px rgb(219, 113, 202);
+}
+.add-icon  :hover{
+  cursor: pointer;
+}
+h1{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 40px;
+}
+ul {
+    text-align: center;
+    width: 72%;
+    list-style: none;
+}
+ul li{
+    height: 40px;
+    line-height: 40px;
+    padding: 0px 5px;
+    margin: auto;
+    width: 70%;
+    margin-top: 25px;
+    margin-right: -10px;
+    /* margin: 20px 0px 0px 300px; */
+    background-color: var(--color1);
+    position: relative;
+    cursor: pointer;
+    display: block;
+    border-radius: 5px;
+    box-shadow: -3px 6px 4px pink;
+}
+ul li span{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    text-align: center;
+    background-color: var(--color4);
+    border-radius: 2px;
+}
+.items-added{
+    height: 100vh;
+    width: 100vh;
+}
